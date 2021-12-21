@@ -1,9 +1,17 @@
+/*
+	--text: #58585D;
+    --text-dark: #161617;
+}*/
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Pacifico&family=Poppins:wght@500&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Mulish&family=Pacifico&family=Poppins:wght@500&family=Questrial&display=swap');
+
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Mulish', sans-serif;
+}
+body#body {
+	background: rgb(255, 255, 255);
 }
 .white-font {
   color: black ;
@@ -175,6 +183,9 @@ section.section-2 {
 section.section-3 {
 	padding-top: 10rem;
 }
+section.section-4 {
+	margin-top: 10rem;
+}
 section div.title-rebana-3{
 	background-color: #fb8500;
 	padding: 10px;
@@ -237,5 +248,17 @@ svg {
 	height: 20rem;
 	margin: 0px;
 	
+}
+p {
+font-family: 'Mulish', sans-serif;
+color: #58585D ;
+}
+
+h1 , h2 ,h4 ,h5 ,h6 {
+	color: #161617 !important ;
+}
+
+button.btn {
+	letter-spacing: 1px;
 }
 
