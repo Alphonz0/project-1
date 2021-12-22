@@ -230,21 +230,15 @@ section div.title-rebana-1{
 
 
 
-@media (max-width: 800px){
-   .row .col-md-8 h3 , .row .col-md-8 p , .row .col-md-2 i{
-		text-align: center;
-		margin: 0px 1rem;
-		margin-top: 10px;
-	}
-	 .row .col-md-2 i {
-	 	margin-left: 40%;
-	 }
-	 html body {
-	overflow-x: hidden;
+
+svg.svg-1 {
+	width: 25rem;
+	height: 20rem;
+	margin: 0px;
+	
 }
-}
-svg {
-	width: 30rem;
+svg.svg-2 {
+	width: 25rem;
 	height: 20rem;
 	margin: 0px;
 	
@@ -261,4 +255,96 @@ h1 , h2 ,h4 ,h5 ,h6 {
 button.btn {
 	letter-spacing: 1px;
 }
+section.section-5 {
+	margin-top: 9rem;
+}
+ ul.btn-medsos li{
+ 	display: inline;
+ }
+ul.btn-medsos li a.btn{
+	list-style: none;
+	display: inline;
+	background-color: orange;
+	padding: 4px 7px;
+	border-radius: 50%;
+	margin: 0px 5px;
 
+}
+ul.btn-medsos li a.btn i{
+	color: rgb(255, 255, 255);
+}
+section.section-4 , section.section-4 {
+	margin: 0px 1 rem;
+}
+
+
+
+
+
+
+@media (max-width: 900px){
+
+	svg.svg-1 {
+	width: 25rem;
+	height: 20rem;
+	margin: 0px;
+	
+}
+svg.svg-2 {
+	width: 20rem;
+	height: 10rem;
+	margin: 0px;
+}
+
+
+
+
+
+@media (max-width: 765px){
+   .row .col-md-8 h3 , .row .col-md-8 p , .row .col-md-2 i{
+		text-align: center;
+		margin: 0px 1rem;
+		margin-top: 10px;
+	}
+	 .row .col-md-2 i {
+	 	margin-left: 40%;
+	 }
+	 html body {
+	overflow-x: hidden !important;
+}
+.col-md-7 h2 , .col-md-7 ul {
+	margin: 0rem 1rem;
+}
+
+
+	
+}
+
+@media (max-width: 768px){
+	svg.col-md-8{
+		flex: 0 0 auto;
+    width: 16.66666667% !important;
+	}
+
+	.col-sm-7 {
+		   width: 83.33333333% !important;
+	}
+}
+
+@media (max-width: 520px){
+svg.svg-1 {
+	width: 20rem;
+
+	
+}
+svg.svg-2 {
+	width: 20rem;
+	height: 10rem;
+	margin: 0px;
+	
+}
+html body {
+	overflow-x: hidden;
+}
+
+}
