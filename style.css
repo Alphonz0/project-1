@@ -39,7 +39,7 @@ html body {
 }
 
 nav.navbar {
-	padding: 1rem ;
+	padding: 1.5rem ;
 }
 span i.white-font{
 	 font-size: 25px;
@@ -47,16 +47,17 @@ span i.white-font{
 
 nav div a img{
 	position: absolute;
-	transform: translateY(-5rem);
+	left: 1rem;
+	transform: translateY(-5.2rem);
   height: 10rem;
 }
-h2.logo-text {
+/*h2.logo-text {
 	margin-top: 3rem;
 	font-family: 'Pacifico', cursive;
 	letter-spacing: 1px;
 	display: inline;
 	color: black;
-}
+}*/
 nav a.navbar-brand {
 	margin-left: 3rem;
 }
@@ -73,7 +74,7 @@ nav.navbar ul li a{
 }
 nav.navbar ul.navbar-nav li a:active{
 	color: black;
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 nav ul li a.doar30{
@@ -294,7 +295,20 @@ footer.footer{
 
 
 @media (max-width: 900px){
+nav ul li a.doar30{
+	color: orange !important;
+	box-shadow: 0px 0px;
 
+}
+/*nav.navbar button.navbar-toggler,
+nav.navbar button.navbar-toggler:active,
+nav.navbar button.navbar-toggler-icon:focus,{
+
+  outline: none;
+	box-shadow: none;
+	box-shadow: 0px 0px 0px 0px;
+	border-radius: 0px;
+}*/
 	svg.svg-1 {
 	width: 20rem;
 	height: 20rem;
