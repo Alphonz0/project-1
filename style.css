@@ -46,7 +46,9 @@ span i.white-font{
 }
 
 nav div a img{
-	height: 50px;
+	position: absolute;
+	transform: translateY(-5rem);
+  height: 10rem;
 }
 h2.logo-text {
 	margin-top: 3rem;
@@ -59,7 +61,7 @@ nav a.navbar-brand {
 	margin-left: 3rem;
 }
 nav {
-	box-shadow: 0px 0px 5px ;
+	box-shadow: 0px 0px 3px ;
 }
 nav ul li {
 	transition: 1s;
@@ -153,7 +155,7 @@ button.btn {
     opacity: 0;
 	 }
 	  10% {
-	 	transform: scale(1.0) translateX(-10px);
+	 	transform: scale(1.0);
 	 	 opacity: 1;
 
 	 }
@@ -282,6 +284,9 @@ footer.footer{
 	background-color: #ddd;
 
 }
+.row div.ratio.ratio-16x9{
+  background-color: #ddd;
+}
 
 
 
@@ -313,8 +318,12 @@ svg.svg-2 {
 		margin: 0px 1rem;
 		margin-top: 10px;
 	}
-	 .row .col-md-2 i {
-	 	margin-left: 44%;
+	 .row .col-md-2{
+	 	margin: auto ;
+	 	text-align: center;
+	 }
+	 .row .col-md-2 i{
+	 	transform: translateX(10px);
 	 }
 	 html body {
 	overflow-x: hidden !important;
