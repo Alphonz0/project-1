@@ -177,7 +177,7 @@ form{
 nav{
 	background: white ;
 }
-div.section-1 {
+section.section-1 {
 	margin-top: 15rem;
 }
 
@@ -296,6 +296,9 @@ footer.footer{
 
 
 @media (max-width: 900px){
+	html{
+		overflow-x: hidden;
+	}
 	nav#nav-bar ul{
 		max-width: 100%;
 		padding-top: 1.5rem;
@@ -345,6 +348,12 @@ svg.svg-2 {
 		margin: 0px 1rem;
 		margin-top: 10px;
 	}
+	 section.section-1{
+   margin: 0 1rem;
+   margin-top: 10rem;
+   transform: translateX(10px);
+   
+	 }
 	 .row .col-md-2{
 	 	margin: auto ;
 	 	text-align: center;
@@ -390,4 +399,19 @@ html body {
 	overflow-x: hidden;
 }
 
+}
+@media (max-width: 350px){
+	 section.section-1{
+   margin: 0 0rem;
+   margin-top:  10rem;	
+   
+	 }
+
+}
+@media (max-width: 250px){
+ nav div a img{
+ 	left: 0;
+ 	height: 8rem;
+ 		transform: translateY(-4rem);
+ }
 }
