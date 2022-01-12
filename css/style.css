@@ -13,22 +13,6 @@
   --bg-white25: rgb(255,255,255) ;
   --nav-bg: #fff ;
   /*Color Pallet*/
-    --bs-blue: #0d6efd;
---bs-indigo: #6610f2;
---bs-purple: #6f42c1;,
---bs-pink: #d63384;
---bs-red: #dc3545;
---bs-orange: #fd7e14;
---bs-yellow: #ffc107;
---bs-green: #198754;
---bs-teal: #20c997;
---bs-cyan: #0dcaf0;
---bs-white: #fff;
---bs-gray: #6c757d;
---bs-primary: #0d6efd;
---bs-secondary: #6c757d;
---bs-success: #198754;
---bs-info: #0dcaf0;
 }
 * {
 
@@ -105,15 +89,17 @@ nav ul li a.doar31.doar30{
 color: white;
 transition: 0.3s;
 background: var(--bases-color-trans-1);
+box-shadow: 0 0 0 0.220rem var(--bases-color-trans-1);
 
 
 
 }
-nav ul li a.doar30:hover{
+nav.navbar ul li.nav-item a.doar30:hover{
 background: var(--bases-color-trans-2);
 color: white;
 box-shadow: 0 0 0 0.220rem var(--bases-color-trans-1);
 }
+
 nav.navbar ul li.nav-item a.doar31{
 font-family: 'Questrial', sans-serif;
 text-decoration: none;
@@ -192,11 +178,13 @@ section.section-1 span{
   position: absolute;
   top: 33.33rem;
   right: 5rem;
-  opacity: 0.5;
+  opacity: 0.3;
   border-radius: 40%;
 
 }
-
+.bg-patern-about{
+  z-index: -97;
+}
 
 /*ABOUT PAGEs*/
 
@@ -208,6 +196,7 @@ section.section-1 span{
   margin: 0 2rem;
   padding-top: 7em;
   padding-bottom: 30rem ;
+  background-color: #FFF;
  }
 /*=====*/
 .row.about-page h4{
@@ -326,7 +315,7 @@ ul.info-about-page li img {
   width: 100%;
     transition: 1s;
     transform: scale(1.1);
-    z-index: -5;
+    z-index: -6;
 }
 .about-img-2{
   opacity: 1;

@@ -17,6 +17,7 @@
 	
 }
 .animated-thumbnail ul li img{
+	z-index: 98;
 	cursor: pointer;
 	position: static;
 	height: 3.125rem; 

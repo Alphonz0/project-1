@@ -8,7 +8,7 @@ fa.icon
 <i class="fas fa-wifi"></i>
 <i class="fas fa-laptop"></i>
 <i class="fas fa-cctv"></i>
-
+<i class="fas fa-shopping-bag"></i>
 <i class="fas fa-desktop"></i>
 @media (min-width: 2000px){
 .bg-patern-about img{
