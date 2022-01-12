@@ -1,0 +1,29 @@
+background: rgb(26,80,200);
+background: radial-gradient(circle, rgba(26,80,200,1) 0%, rgba(125,37,252,1) 100%);
+
+
+
+fa.icon
+<i class="fas fa-server"></i>
+<i class="fas fa-wifi"></i>
+<i class="fas fa-laptop"></i>
+<i class="fas fa-cctv"></i>
+
+<i class="fas fa-desktop"></i>
+@media (min-width: 2000px){
+.bg-patern-about img{
+	margin-left: 40%;
+
+	}
+ @media (min-width: 1400px){
+ 
+.bg-about-thumbnail img{
+   margin-left: 17rem;
+  right: auto;
+}
+.bg-patern-about img{
+   right: auto;
+
+}
+
+

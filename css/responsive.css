@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Mulish&family=Pacifico&family=Poppins:wght@500&family=Questrial&display=swap');
+
+/* Responsive */
+  
+
+
+
+
+
+
+
+  
+/*Laptop Small*/
+@media (max-width: 990px){
+nav#nav-bar ul{
+	max-width: 100%;
+	padding-top: 1.5rem;
+	margin: auto;
+
+}
+	nav#nav-bar ul li{
+    margin: auto;
+    border: 1rem solid #fff;
+	}
+nav ul li.doar30{
+color: orange !important;
+
+box-shadow: 0px 5px;
+
+}
+/*ABOUT RESPONSIVE*/
+.about-img , .about-img-2{
+	width: 350px;
+	position: static;
+}
+
+}
+
+/*768px */
+@media (max-width: 767px){
+
+  section.section-1{
+  	margin-left: 1rem ;
+  	margin-right: 1rem ;
+  }
+
+  section.section-1 .animated-thumbnail ul li img{
+  	top: 0;
+  	bottom: 0;
+  	right: 0;
+  	left: 0;
+  }
+  /* ul li img section-1 icon */
+  .animated-thumbnail ul{
+  	margin-top: 3rem;
+  	padding: 0 1rem;
+  	display: flex;
+  	justify-content: space-evenly;
+  }
+  .animated-thumbnail ul li:nth-child(1){
+   top: 0;
+
+}
+.animated-thumbnail ul li:nth-child(2){
+	top: 0;
+ right: 0;
+
+}
+.animated-thumbnail ul li:nth-child(3){
+	right: 0;
+	top: 0px;
+	}	
+	.about-img , .about-img-2{
+	position: static;
+	  width: 90%;
+	margin: auto;
+	 margin: 1rem;
+
+}
+
+.card-container-about h2.text-title-about-2{
+	margin-left: 0;
+}
+/*E-comerce*/
+
+.e-comerc-about{
+  margin-left: 0;
+
+}
+}
+
+/*520px*/
+
+@media (max-width: 520px){
+
+}
+@media (max-width: 350px){
+ }
+
+@media (min-width:1600px){
+.bg-patern-about img{
+	margin-left: 40%;
+
+	}
+ @media (min-width: 1400px){
+ 
+.bg-about-thumbnail img{
+   margin-left: 17rem;
+  right: auto;
+}
+.bg-patern-about img{
+   right: auto;
+
+}

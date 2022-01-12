@@ -1,0 +1,392 @@
+/*
+--text: #58585D;
+  --text-dark: #161617;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Mulish&family=Pacifico&family=Poppins:wght@500&family=Questrial&display=swap');
+:root{
+--bases-color: #ffc107 ;
+--bases-color-trans-1: rgba(26,80,200, .3) ;
+--bases-color-trans-2: rgba(26,80,200,1);
+	--text: #58585D;
+  --text-dark: #161617;
+  --bg-white25: rgb(255,255,255) ;
+  --nav-bg: #fff ;
+  /*Color Pallet*/
+    --bs-blue: #0d6efd;
+--bs-indigo: #6610f2;
+--bs-purple: #6f42c1;,
+--bs-pink: #d63384;
+--bs-red: #dc3545;
+--bs-orange: #fd7e14;
+--bs-yellow: #ffc107;
+--bs-green: #198754;
+--bs-teal: #20c997;
+--bs-cyan: #0dcaf0;
+--bs-white: #fff;
+--bs-gray: #6c757d;
+--bs-primary: #0d6efd;
+--bs-secondary: #6c757d;
+--bs-success: #198754;
+--bs-info: #0dcaf0;
+}
+* {
+
+margin: 0px;
+padding: 0px;
+font-family: 'Mulish', sans-serif;
+}
+body#body {
+background: rgb(255, 255, 255);
+}
+.white-font {
+color: #000;
+
+}
+a {
+color: black;
+list-style: none;
+text-decoration: none;
+}
+.mb-7 {
+margin-bottom: 4rem;
+}
+nav.navbar {
+padding: 1.5rem ;
+background: var(--nav-bg);
+
+}
+nav ul{
+margin-right: 15rem ;
+}
+html body {
+overflow-x: hidden !important;
+}
+
+nav.navbar ul li a{
+
+color: black;
+ font-size: 15px;
+ margin-left: 0px 0px;
+}
+nav.navbar ul li.nav-item a.doar31:hover{
+color: #fff;
+}
+
+
+span i.white-font{
+ font-size: 25px;
+}
+
+nav div a img{
+position: absolute;
+left: 4rem;
+transform: translateY(-1.4rem);
+
+height: 3rem;
+}
+/*h2.logo-text {
+margin-top: 3rem;
+font-family: 'Pacifico', cursive;
+letter-spacing: 1px;
+display: inline;
+color: black;
+}*/
+nav a.navbar-brand {
+margin-left: 3rem;
+}
+nav {
+box-shadow: 0px 0px 3px ;
+}
+
+
+nav ul li a.doar31.doar30{
+
+color: white;
+transition: 0.3s;
+background: var(--bases-color-trans-1);
+
+
+
+}
+nav ul li a.doar30:hover{
+background: var(--bases-color-trans-2);
+color: white;
+box-shadow: 0 0 0 0.220rem var(--bases-color-trans-1);
+}
+nav.navbar ul li.nav-item a.doar31{
+font-family: 'Questrial', sans-serif;
+text-decoration: none;
+font-size: 16px;
+margin-right: 1rem;
+transition: 0.4s ease;
+letter-spacing: 0.3px;
+border-radius: 0.8rem;
+padding: 7px 1rem;
+
+
+
+}
+
+}
+p {
+font-family: 'Mulish', sans-serif;
+color: #58585D ;
+}
+
+h1 , h2 ,h4 ,h5 ,h6 {
+color: #161617 !important ;
+}
+
+
+svg.svg-bg{
+position: absolute;
+opacity: 0.2;
+z-index: -2;
+left: -2em;
+top: -5em;
+width: 90%;
+}
+/*=========*/
+ section.section-1{
+  margin-top: 12rem;
+  padding-bottom: 15rem;
+ }
+/*=========*/
+section.section-1 h1{
+font-family: 'Poppins' , sans-serif;
+letter-spacing: 0.8px;
+}
+section.section-1 h5{
+color: var(--text);
+}
+section.section-1 h1{
+}
+section.section-1 h1 ,section.section-1 span{
+font-family: 'Poppins' , arial;
+color:  ;
+
+
+}
+section.section-1 span{
+  background-image:  radial-gradient(circle, rgba(26,80,200,1) 0%, rgba(125,37,252,1) 100%);
+  background-size: 100%;
+  
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/*Text Section*/
+.text-section {
+  letter-spacing: 1.5px;
+  font-family: 'Poppins' , arial;
+
+}
+/*About Section*/
+
+.bg-patern-about img{
+    z-index: -99;
+  width: 150px;
+  position: absolute;
+  top: 33.33rem;
+  right: 5rem;
+  opacity: 0.5;
+  border-radius: 40%;
+
+}
+
+
+/*ABOUT PAGEs*/
+
+
+
+
+/*======*/
+ section.section-2{
+  margin: 0 2rem;
+  padding-top: 7em;
+  padding-bottom: 30rem ;
+ }
+/*=====*/
+.row.about-page h4{
+  color: #021034;
+  margin-top: 4rem ;
+
+}
+h2.text-title-about{
+  font-weight: bold;
+  font-family: 'Poppins' , Arial;
+      background-image:  radial-gradient(circle, rgba(26,80,200,1) 0%, rgba(125,37,252,1) 100%);
+  background-size: 100%;
+  letter-spacing: 1.2px;
+
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.row.about-page{
+  margin-top: 3rem;
+}
+.row.about-page h6 {
+  margin-top: 0.4rem;
+  margin-bottom: 3rem;
+  letter-spacing: -0.18px;
+  font-family: 'Mulish', sans-serif;
+  color: #021034;
+  opacity: 1;
+  font-weight: normal;
+}
+.col-md-6.about-page-1-card-1{
+  padding-bottom: 1rem ;
+}
+
+.about-img img{
+  width: 100%;
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: -5;
+}
+.about-img{
+    position: relative;
+   width: 400px;
+    overflow: hidden;
+   bottom: -8rem;
+  right: -5rem;
+  border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border: 10px solid  rgba(26,80,200, .8);
+      box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+
+}
+.about-img:hover img{
+  transform: scale(1.2);
+ 
+
+}
+ul.info-about-page li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+ul.info-about-page img{
+  width: 42px;
+}
+ul.info-about-page li a{
+  text-decoration: none;
+  color: #021034;
+  font-weight: bold;
+  opacity: 1;
+
+}
+ul.info-about-page li:nth-child(2) a{
+   letter-spacing: 1px;
+}
+ul.info-about-page{
+  margin-right: 2rem;
+  margin-top: 2rem;
+
+}
+ul.info-about-page li {
+  margin-bottom: 1rem;
+}
+
+ul.info-about-page li img {
+        box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+        padding: 5px 5px;
+        border-radius: 20px;
+        margin-right: 0.9rem;
+}
+/*BG About Patern Thumbnail*/
+.bg-about-thumbnail img{
+  opacity: 0.2;
+     position: absolute;
+  max-width: 300px;
+  border-radius: 20px;
+  z-index: -4;ss
+  opacity: 0.3;
+  top: 60rem;
+  right: 5rem;
+
+
+ 
+  
+ 
+}
+/**/
+
+
+/*About Market onlien e comerece*/
+.card-container-about{
+  margin-top: 8rem;
+}
+.about-img-2 img{
+  width: 100%;
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: -5;
+}
+.about-img-2{
+  opacity: 1;
+    position: relative ;
+   width: 400px;
+    overflow: hidden;
+    left: -1.8rem;
+   bottom: -2rem;
+  right: -5rem;
+  border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+     border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 0px;
+    border: 10px solid    rgba(26,80,200, .8);
+      box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
+}
+
+.about-img-2:hover img{
+  transform: scale(1.2);
+}
+.card-container-about ul.e-comerc-about li{
+
+ list-style: none;
+}
+
+.card-container-about h2.text-title-about-2{
+     
+        background-image:  radial-gradient(circle,  rgba(125,37,252,1) 0%,  rgba(26,80,200,1) 100%);
+  background-size: 100%;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+   text-shadow: 0px 7px 5px rgba(100, 100, 111,  0.1) ;
+   margin-left: 7rem;
+}
+/*Icon E comers*/
+.e-comerc-about{
+  margin-left: 5rem;
+
+}
+.e-comerc-about a{
+  text-decoration: none;
+  
+}
+.e-comerc-about a i{
+  font-size: 1.5rem;
+
+ background-image:  radial-gradient(circle, rgba(26,80,200,1) 0%, rgba(125,37,252,1) 100%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+
+}
+
+
+
+/**/
