@@ -122,6 +122,9 @@ position: static;
  .row .card-about{
  margin: 0 3rem;
 	}
+	nav.nav-bottom{
+  display: flex;
+}
 }
 @media (max-width: 350px){
  }

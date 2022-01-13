@@ -40,7 +40,7 @@ padding: 1.5rem ;
 background: var(--nav-bg);
 
 }
-nav ul{
+nav ul.navbar-nav{
 margin-right: 15rem ;
 }
 html body {
@@ -79,7 +79,7 @@ color: black;
 nav a.navbar-brand {
 margin-left: 3rem;
 }
-nav {
+nav.nav-top {
 box-shadow: 0px 0px 3px ;
 }
 
@@ -410,7 +410,7 @@ section .row .card-about{
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  border: 3px solid rgba(125,37,252, .3);
+  border: 3px solid rgba(125,37,252, .1);
   background-clip: border-box;
   box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 5px 0px;
   border-radius: 1rem;
@@ -424,7 +424,7 @@ section .row .card-about .icon-card-about i{
 
   margin: 2.5rem;
 }
-section .row .card-about .icon-card-about i ,
+
 section .row .card-about h5,
 .about-card-title-header h3{
    background-image:  radial-gradient(circle,  rgba(125,37,252,1) 0%, rgba(26,80,200,1) 100%);
@@ -438,6 +438,7 @@ section .row .card-about h5{
 }
 section .row .card-about .icon-card-about i{
   font-size: 2rem;
+  color: rgba(125,37,252,1) ;
 }
 .about-card-body{
   margin: 0 1rem;
