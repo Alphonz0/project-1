@@ -33,7 +33,14 @@ box-shadow: 0px 5px;
 	width: 350px;
 	position: static;
 }
-
+/*Bug section*/
+.bug-998-about{
+position: relative;
+right: -8rem;
+}
+section .row .card-about{
+	height: auto;
+}
 }
 
 /*768px */
@@ -76,7 +83,7 @@ box-shadow: 0px 5px;
 	margin: auto;
 	 margin: 1rem;
 
-}
+} 
 
 .card-container-about h2.text-title-about-2{
 	margin-left: 0;
@@ -94,12 +101,27 @@ box-shadow: 0px 5px;
   right: 5rem;
 
 }
+
+.e-comerc-about ul li{
+	position: relative;
+	left: -1rem;
+   justify-content: center;
+
+}
+/*BUG TOKPED ini*/
+.bug-998-about{
+position: static;
+}
+
+
 }
 
 /*520px*/
 
 @media (max-width: 520px){
-
+ .row .card-about{
+ margin: 0 3rem;
+	}
 }
 @media (max-width: 350px){
  }
@@ -119,3 +141,6 @@ box-shadow: 0px 5px;
    right: auto;
 
 }
+
+}
+

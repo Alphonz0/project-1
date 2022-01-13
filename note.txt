@@ -26,4 +26,6 @@ fa.icon
 
 }
 
-
+.about-card
+.about-card-title
+.about-card-body

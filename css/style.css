@@ -180,6 +180,7 @@ section.section-1 span{
   right: 5rem;
   opacity: 0.3;
   border-radius: 40%;
+  margin-left: 40%;
 
 }
 .bg-patern-about{
@@ -193,9 +194,9 @@ section.section-1 span{
 
 /*======*/
  section.section-2{
-  margin: 0 2rem;
+  margin: 0 0rem;
   padding-top: 7em;
-  padding-bottom: 30rem ;
+  padding-bottom: 17rem ;
   background-color: #FFF;
  }
 /*=====*/
@@ -239,6 +240,7 @@ h2.text-title-about{
     z-index: -5;
 }
 .about-img{
+  z-index: 6;
     position: relative;
    width: 400px;
     overflow: hidden;
@@ -290,11 +292,11 @@ ul.info-about-page li img {
 }
 /*BG About Patern Thumbnail*/
 .bg-about-thumbnail img{
-  opacity: 0.2;
+  opacity: 1;
      position: absolute;
   max-width: 300px;
   border-radius: 20px;
-  z-index: -4;ss
+  z-index: 5;
   opacity: 0.3;
   top: 60rem;
   right: 5rem;
@@ -352,18 +354,24 @@ ul.info-about-page li img {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
    text-shadow: 0px 7px 5px rgba(100, 100, 111,  0.1) ;
-   margin-left: 7rem;
+   margin-left: 0;
 }
 /*Icon E comers*/
-.e-comerc-about{
-  margin-left: 5rem;
+.e-comerc-about ul{
+  display: flex;
+ justify-content: center;
+
+}
+.e-comerc-about li{
+  margin: 0 0.5rem ;
 
 }
 .e-comerc-about a{
   text-decoration: none;
   
 }
-.e-comerc-about a i{
+.e-comerc-about a{
+  margin: 0rem 0.5rem;
   font-size: 1.5rem;
 
  background-image:  radial-gradient(circle, rgba(26,80,200,1) 0%, rgba(125,37,252,1) 100%);
@@ -372,10 +380,81 @@ ul.info-about-page li img {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 5px 0px;
 
 }
 
-
-
+.e-comerc-about a img {
+  width: 30px;
+}
+.e-comerc-about h6 {
+  margin-top: 0.8em;
+  color: black;
+  font-weight: bold;
+}
+.e-comerc-about ul li{
+  list-style: none;
+}
 /**/
+
+
+/*Card*/
+section.card-container{
+  padding-bottom: 20rem;
+}
+section .row .card-about{
+
+  text-align: center;
+   position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: 3px solid rgba(125,37,252, .3);
+  background-clip: border-box;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 5px 0px;
+  border-radius: 1rem;
+  height: 17rem;
+
+}
+section .row .card-about .icon-card-about i{
+  padding: 10px 8px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 5px 0px;
+
+  margin: 2.5rem;
+}
+section .row .card-about .icon-card-about i ,
+section .row .card-about h5,
+.about-card-title-header h3{
+   background-image:  radial-gradient(circle,  rgba(125,37,252,1) 0%, rgba(26,80,200,1) 100%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+section .row .card-about h5{
+  font-weight: bold;
+}
+section .row .card-about .icon-card-about i{
+  font-size: 2rem;
+}
+.about-card-body{
+  margin: 0 1rem;
+}
+.about-card-body p{
+  font-family: 'Mulish';
+  letter-spacing: -0.18;
+  color: #707089;
+  padding-bottom: 1rem;
+}
+
+.about-card-title-header h3{
+  font-weight: bold;
+  opacity: 0.7;
+
+}
+
+*{
+ 
+}
